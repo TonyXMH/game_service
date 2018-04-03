@@ -1,4 +1,4 @@
-INC_PATH := -I/usr/local/include -I../../common
+INC_PATH := -I/usr/local/include 
 CFLAGS = -static $(INC_PATH) -g -Wall -o2 -std=c++0x
 CC=g++
 SRC=$(wildcard *.cpp)
