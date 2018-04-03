@@ -3,10 +3,10 @@
 
 #include <netinet/in.h>
 
-#include "base/Type.h"
-#include "base/CSingleW_SingleR_Buffer.h"
-#include "base/CMutex.h"
-#include "base/CCond.h"
+#include "../base_lib/Type.h"
+#include "../base_lib/CSingleW_SingleR_Buffer.h"
+#include "../base_lib/CMutex.h"
+#include "../base_lib/CCond.h"
 
 
 using namespace NCommon;

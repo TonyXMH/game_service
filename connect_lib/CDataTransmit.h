@@ -1,7 +1,7 @@
 #ifndef CDATATRANSMIT_H
 #define CDATATRANSMIT_H
 
-#include "base/MacroDefine.h"
+#include "../base_lib/MacroDefine.h"
 #include "ILogicHandler.h"
 #include "NetType.h"
 
