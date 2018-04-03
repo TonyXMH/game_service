@@ -3,7 +3,7 @@ CFLAGS = -static $(INC_PATH) -g -Wall -o2 -std=c++0x
 CC=g++
 SRC=$(wildcard *.cpp)
 OBJ=$(addprefix ./, $(addsuffix .o, $(basename $(SRC))))
-TARGET=../../../lib/libconnect.a
+TARGET=../lib/libconnect.a
 
 all: $(TARGET)
  
