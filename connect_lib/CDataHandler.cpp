@@ -6,7 +6,7 @@
 
 #include "CDataHandler.h"
 #include "CConnectManager.h"
-#include "base/ErrorCode.h"
+#include "../base_lib/ErrorCode.h"
 
 
 using namespace NCommon;
