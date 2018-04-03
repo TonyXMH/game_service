@@ -8,8 +8,8 @@
 #include <netinet/tcp.h>
 
 #include "CSocket.h"
-#include "base/MacroDefine.h"
-#include "base/ErrorCode.h"
+#include "../base_lib/MacroDefine.h"
+#include "../base_lib/ErrorCode.h"
 
 
 using namespace NCommon;

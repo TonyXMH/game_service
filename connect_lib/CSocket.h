@@ -2,7 +2,7 @@
 #define CSOCKET_H
 
 #include <netinet/in.h>
-#include "base/Type.h"
+#include "../base_lib/Type.h"
 
 
 namespace NConnect
