@@ -1,4 +1,4 @@
-CFLAGS = -static -I/usr/local/include -I../../../import/third_party/include  -I../../../import/third_party/include/mysql -I../../common -g -Wall -o2 -std=c++0x
+CFLAGS = -static -I/usr/local/include  -g -Wall -o2 -std=c++0x
 CFLAGS +=   #调试日志开关，编译运行版本的时候注释掉该选项
 CC=g++
 SRC=$(wildcard *.cpp)
