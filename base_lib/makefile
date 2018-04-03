@@ -3,7 +3,7 @@ CFLAGS +=   #调试日志开关，编译运行版本的时候注释掉该选项
 CC=g++
 SRC=$(wildcard *.cpp)
 OBJ=$(addprefix ./, $(addsuffix .o, $(basename $(SRC))))
-TARGET=../../../lib/libbase.a
+TARGET=../lib/libbase.a
 
 all: $(TARGET)
  
