@@ -1,4 +1,4 @@
-include <string.h>
+#include <string.h>
 #include <errno.h>
 #include "CProcess.h"
 #include "ErrorCode.h"
